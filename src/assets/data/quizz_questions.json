@@ -1,55 +1,51 @@
 {
-  "title":"Você seria um heroi ou vilão ?",
+  "title":"Você é um Jedi?",
   "questions":[
     {
       "id":1,
-      "question": "Qual super poder você escolheria ?",
+      "question": "Qual sua abordagem diante do medo ?",
       "options":[
-        {"id": 1, "name":"Raios-Lasers", "alias":"A"},
-        {"id": 2, "name":"Voar", "alias":"B"},
-        {"id": 3, "name":"Explodir coisas", "alias":"A"},
-        {"id": 4, "name":"Curar feridas", "alias":"B"},
-        {"id": 5, "name":"Soltar fogo pelas mãos", "alias":"A"}
+        {"id": 1, "name":"Enfrento-o corajosamente", "alias":"A"},
+        {"id": 2, "name":"Deixo que o medo me controle", "alias":"B"}
+        
       ]
     },
     {
       "id":2,
-      "question": "Quem você salvaria primeiro ?",
+      "question": "Em um conflito, qual sua reação instintiva ?",
       "options":[
-        {"id": 1, "name":"Crianças", "alias":"A"},
-        {"id": 2, "name":"Idosos", "alias":"A"},
-        {"id": 3, "name":"Não saberia escolher", "alias":"B"}
+        {"id": 1, "name":"Busco a paz e a resolução pacifíca", "alias":"A"},
+        {"id": 2, "name":"Ataco agressivamente", "alias":"B"}
       ]
     },
     {
       "id":3,
-      "question": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+      "question": "Como você lida com suas emoções ?",
       "options":[
-        {"id": 1, "name":"Não destruir prédios", "alias":"B"},
-        {"id": 2, "name":"Socar a cara do inimigo", "alias":"A"},
-        {"id": 3, "name":"Não sujar meu traje", "alias":"A"},
-        {"id": 4, "name":"Não deixar ninguém se ferir", "alias":"B"}
+        {"id": 1, "name":"Aceito e controlo minhas emoções", "alias":"A"},
+        {"id": 2, "name":"Deixo que minhas emoções me dominem", "alias":"B"}
+        
       ]
     },
     {
       "id":4,
-      "question": "Qual o seu maior foco ?",
+      "question": "Qual é a sua visão sobre o equilíbrio entre o bem e o mal ?",
       "options":[
-        {"id": 1, "name":"Ficar rico com poderes", "alias":"A"},
-        {"id": 2, "name":"Salvar a cidade", "alias":"B"}
+        {"id": 1, "name":"Acredito no equilíbrio e na coexistência", "alias":"A"},
+        {"id": 2, "name":"Acredito na supremacia do mal sobre o bem", "alias":"B"}
       ]
     },
     {
       "id":5,
-      "question": "Qual o seu apelido de super ser ?",
+      "question": "Qual é a importância da empatia em suas ações ?",
       "options":[
-        {"id": 1, "name":"O Terrivel", "alias":"A"},
-        {"id": 2, "name":"Amigo da vizinhança", "alias":"B"}
+        {"id": 1, "name":"Valorizo a empatia e a compaixão", "alias":"A"},
+        {"id": 2, "name":"A empatia não é uma prioridade pra mim", "alias":"B"}
       ]
     }
   ],
   "results":{
-    "A": "Você muito provavelmente seria um super vilão!",
-    "B": "Você muito provavelmente seria um super Herói!"
+    "A": "Você possui qualidades de um Jedi! Continue buscando a paz e o equilíbrio.",
+    "B": "Cuidado com o lado sombrio! Tente focar em equilibrar suas emoções e escolhas."
   }
 }
